@@ -1,0 +1,15 @@
+{
+    "type": "module",
+    "devDependencies": {
+        "webpack": "^5.105.4",
+        "webpack-cli": "^7.0.0",
+        "webpack-dev-server": "^5.2.3"
+    },
+    "scripts": {
+        "build": "webpack",
+        "start": "webpack serve --mode development --open"
+    },
+    "dependencies": {
+        "lodash": "^4.17.23"
+    }
+}
